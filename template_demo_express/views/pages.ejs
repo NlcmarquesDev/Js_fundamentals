@@ -1,0 +1,14 @@
+<%- include ('partials/header') %>
+  <%- include ('partials/navbar') %>
+    <h1>this is <%= name %></h1>
+    <h2>this is <%= description %></h2>
+
+    <p><%= subscribers %> Total of subscribers</p>
+
+    <% for (let post of posts){ %>
+      <article>
+        <h3><%= post.title %></h3>
+
+      </article>
+    <% } %>
+  <%- include ('partials/footer') %>

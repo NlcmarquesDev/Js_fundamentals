@@ -1,0 +1,76 @@
+// LET, VAR, CONST
+
+  A principal diferença entre eles é o escopo em que essas variáveis são utilizadas.
+  As variáveis declaradas com "let" só podem ser utilizadas dentro do bloco onde foram declaradas,
+  já as declaradas por "var" estão disponíveis em toda a função onde foram declaradas.
+
+// CLOSURE
+
+closure, permite que a funcao tenbha acesso a variaveis da sua funcao externa, mesmodepois que a funcao externa tenha retornado, 
+  Sao uteis pois tambem servem como funcoes reutilizaveis e retornar diferentes valores.
+  E ajuda a manter o encaplulamento e privacidade do seu escopo.
+
+//API
+
+//CALLBACK
+e uma funcao passada como parametro ou argumento de outra funcao a segunda funcao e xecutada quando a primneira funcao e chamad.
+
+
+//ASYNC e SYNC FUNCTIONS
+
+//PROMISES
+As promises ajudam a gerenciar operações assíncronas, como solicitações de servidor em JavaScript.CALLBACAKHELL
+Anteriormente, os callbacks eram usados ​​para o mesmo propósito.
+No entanto, os callbacks têm funcionalidade limitada e, portanto,
+    podem tornar o código difícil de gerenciar.
+
+Pending (pendente): Este é o primeiro estado da promise e indica que ela não foi cumprida nem rejeitada.
+
+Fulfilled (cumprida): Este estado representa a conclusão da operação assíncrona. Em outras palavras, a promise foi cumprida.
+
+Rejected(rejeitada): Este estado representa a falha da operação assíncrona devido a algum motivo.Em outras palavras,
+    a promise foi rejeitada.
+
+Settled (resolvida): Este é o último estado da promise, mostrando que ela foi cumprida ou rejeitada.
+
+Um construtor promise usa um callback com dois parâmetros - resolve e reject - para criar uma promessa.
+ A função resolve é chamada quando a operação assíncrona foi concluída com sucesso.
+ A função reject é chamada quando a operação assíncrona falhou.
+
+// HOISTING
+Hoisting é um comportamento em JavaScript em que declarações de variáveis e funções são movidas para o topo do seu escopo antes da execução
+do código.Isso significa que, mesmo que uma variável ou função seja declarada em algum lugar no meio do código,
+  ela pode ser usada em qualquer lugar dentro do escopo em que foi declarada.
+
+//destruturacao de objecto e array
+xtrair as propriedades de um objeto e vinculá - las a variáveis. 
+Ela pode ser usada para extrair várias propriedades em uma única declaração e pode alcançar propriedades de objetos aninhados. 
+
+//ESCOPO DAS VARIAVEIS
+
+// COMO REMOVER UM ELEMENTO ESPECIFICO DE ARRAY
+
+// diferenca entre arrow funnction e normal functions
+Seguranca no escopo
+mais compacta
+mais clara
+
+//diferenca entre NULL E UNDEFINED 
+
+//vantagens do JAVASCRIPT
+Compatibilidade com várias plataformas (cross-platform)
+Código aberto (open-source)
+Orientado a objetos
+Integração com diversas tecnologias front-end e back-end
+
+
+// loops in javascript
+for loop 
+do while loop
+while loop
+for of 
+for in loop
+
+
+//criar cokkies
+document.cookie = "key1=value1;key2=value2;expires=date";

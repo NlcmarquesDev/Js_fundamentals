@@ -1,0 +1,4 @@
+.tvShows {
+  display: flex;
+  flex-wrap: wrap;
+}
